@@ -1,6 +1,7 @@
 let num = 0
 function mostrarMensagem() {
-  let message = "Você clicou no botão! 🎉";
+  num++
+  let message = `Você clicou no botão ${num} vez${num === 1 ? '' : 'es'}! 🎉`;
   alert(message);
 }
 
