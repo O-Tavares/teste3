@@ -1,5 +1,7 @@
 let num = 0
 function mostrarMensagem() {
-  alert("Você clicou no botão! 🎉",num);
+  let message = "Você clicou no botão! 🎉";
+  let num = num + 1;
+  alert(message,num);
 }
 
