@@ -7,9 +7,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>0</h1>
-  <p>Clique no botão abaixo para uma surpresa.</p>
-  <button onclick="mostrarMensagem()">Clique aqui</button>
+  <h1 id="contador">0</h1>
+
+  <!-- Área central -->
+  <div class="centro">
+    <button onclick="mostrarMensagem()">Botão Central</button>
+  </div>
+
+  <!-- Área lateral esquerda -->
+  <div class="esquerda">
+    <button onclick="mostrarMensagem()">Esquerda</button>
+  </div>
+
+  <!-- Área lateral direita -->
+  <div class="direita">
+    <button onclick="mostrarMensagem()">Direita</button>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <button onclick="mostrarMensagem()">Rodapé</button>
+  </footer>
 
   <script src="script.js"></script>
 </body>

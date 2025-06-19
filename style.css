@@ -1,25 +1,33 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
   text-align: center;
-  padding: 50px;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  color: #2c3e50;
+  margin-top: 20px;
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #3498db;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.centro {
+  margin-top: 40px;
 }
 
-button:hover {
-  background-color: #2980b9;
+.esquerda {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+
+.direita {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
 }
